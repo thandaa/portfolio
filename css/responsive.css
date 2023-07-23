@@ -1,0 +1,75 @@
+@media screen and (min-width:480px) {
+    /*==================================================
+    Portfolio page
+    ====================================================*/
+    
+    #gallery li{
+        width: 28%;
+    }
+/*==================================================
+    About And contact
+    ====================================================*/
+    #contact-primary{
+        width: 60%;
+        float: left;
+        margin-left: 5%;;
+
+    }
+    #contact-secondary{
+        width: 20%;
+        float: right;
+        margin-right:5%;
+ 
+    }
+
+    #about-primary{
+        width: 20%;
+        float: left;
+        margin-left: 5%;;
+
+    }
+    #about-secondary{
+        width: 70%;
+        float: right;
+        margin-right:5%;
+ 
+    }
+    
+    #contact-secondary ul{
+        padding: 10px;
+        list-style: circle;
+    }
+    .profile-photo{
+        float: left;
+        margin:0 5% 80% 0;
+    }
+}
+
+
+    
+@media screen and (min-width:660px) {
+    #logo{
+        float:left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+    nav{
+        background:none;
+        float: right;
+        font-size: 1.125em;
+        margin-right:2%;
+        text-align: right;
+        width: 45%;
+
+    }
+
+}
+@media screen and (min-width:320px) and (max-width:700px){
+    #gallery li:nth-child(4){
+        clear:none;
+    }
+    footer{
+        padding-top: 0px;
+    }
+}

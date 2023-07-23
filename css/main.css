@@ -1,0 +1,124 @@
+/*================================================================
+General
+================================================================*/
+body{
+    font-family: "Open Sans";
+    background-color: #ffff;
+    color: #9999;
+
+}
+a{
+    text-decoration: none;
+}
+header{
+    float: left;
+    width: 100%;
+    border-bottom: 3px solid #03b97633;
+    background-color: #6ab67b;
+}
+#logo{
+    text-align: center;
+    margin:0;
+
+}
+h1{
+    font-family: "Changa One";
+
+}
+h2{
+    font-size: 1.25em;
+}
+h1,h2{
+    color: white;
+}
+a{
+    color: #cccc;
+}
+
+#wrapper{
+
+    max-width: 100%;
+    margin: 0 auto;
+    margin: 0 5%;
+}
+/*================================================================
+Navigation
+================================================================*/
+nav{
+    text-align: center;
+    padding:10px 0;
+    margin:20px 0 0;
+    background-color: #f79a04;
+}
+nav ul {
+    list-style: none;
+    margin:0 10px;
+    padding:0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-weight: bold;
+    padding: 10px 30px;
+    color:rgb(0, 191, 255);
+}
+nav a.selected, nav a:hover{
+    color:#32673f;
+}
+nav a:visited{
+    color:#ffff;
+}
+
+/*================================================================
+Project Section
+================================================================*/
+#gallery{
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+#gallery li:nth-child(4){
+    clear: both;
+}
+
+img{
+    max-width: 100%;
+}
+#gallery li{
+
+    float: left;
+    width: 30%;
+    margin: 2.5%;
+    background-color:#f5f5f5;
+    color: #bac3c7;
+}
+#gallery li a p{
+    margin: 0;
+    padding: 5%;
+    font-size: 2.25em;
+    color: #bdc3c7;
+
+}
+
+/*================================================================
+About
+================================================================*/
+.profile-photo{
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+
+/*================================================================
+footer
+================================================================*/
+footer{
+    text-align: center;
+    clear: both;
+    color:#bdc3c7;
+    font-size: 0.90em;
+    padding-top:50px;
+}
